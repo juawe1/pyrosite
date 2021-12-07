@@ -1,5 +1,6 @@
 html {
     margin: 0;  
+    height: max-content;
 }
 
 body {
@@ -100,12 +101,13 @@ header {
 /* Main body */ 
 
 #MainBody{
-    height: auto;
+    height: 800px;
     display: inline-flex;
     background-image: url("./beans_repeatable");
     background-repeat: repeat;
     background-color: #70525214;
     background-blend-mode: multiply;
+    align-items: center;
 }
 
 .pageGrid {
@@ -174,7 +176,7 @@ header {
     height: 1000px;
     padding: 40px;
     display: grid;
-    grid-template-rows: 50px 160px 43.75rem;
+    grid-template-rows: 50px 160px 780px;
     align-items: center;
     justify-items: center;
 }
@@ -195,13 +197,32 @@ header {
 
 .galleryGrid {
     width: 1420px;
-    background-color: aqua;
-    height: 43.75rem;
+    height: 730px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 290px 75px 290px 75px;
+    justify-items: center;
+}
+
+.galleryImg {
+    margin-top: 10px;
+    width: 450px;
+    height: auto;
+    border-radius: 12px;
+}
+
+.galleryText {
+    text-align: center;
 }
 
 /* community section */
 
+#community {
+    width: 1420px;
+    height: 1000px;
+    padding: 40px;
 
+}
 
 
 
