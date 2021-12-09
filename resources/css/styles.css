@@ -69,6 +69,7 @@ header {
     font-family: 'Roboto', sans-serif;
     font-weight: 700;
     color: rgb(255, 255, 255);
+    text-decoration: none;
 }
 
 .socials:hover {
@@ -269,6 +270,10 @@ header {
     text-align: center;
 }
 
+#indrit {
+    text-align: center;
+}
+
 .discordInv {
     width: auto;
     height: auto;
@@ -325,5 +330,12 @@ header {
     body {
         background-color: #222222;
         color: white;
+    }
+  }
+
+
+  @media screen and (max-width: 600px) {
+    body {
+      background-color: lightblue;
     }
   }
