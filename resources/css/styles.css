@@ -127,7 +127,7 @@ header {
 #textArea {
     background-color: #222222;
     width: 270px;
-    height: 400px;
+    height: 415px;
     border-radius: 12px;
     padding: 10px;
     text-align: center;
@@ -238,9 +238,8 @@ header {
 
 #community {
     width: 1420px;
-    height: 1200px;
+    height: max-content;
     padding: 40px;
-    background-color: aqua;
     display: block;
 }
 
@@ -254,8 +253,6 @@ header {
 .discordImg {
     width: 1420px;
     height: auto;
-    position: relative;
-    float: right;
 }
 
 .imgContainer {
@@ -269,6 +266,31 @@ header {
 
 #aboutCommunity {
     font-size: 24px;
+    text-align: center;
+}
+
+.discordInv {
+    width: auto;
+    height: auto;
+    background-color: rgb(88, 101, 242);
+    border: none;
+    border-radius: 12px;
+    text-align: end;
+    padding-right: 20px;
+    padding-left: 20px;
+    opacity: 0.8;
+}
+
+#discLogo {
+    height: 150px;
+    width: auto;
+}
+
+.buttonContainer {
+    width: fit-content;
+    height: fit-content;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 
