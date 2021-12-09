@@ -37,6 +37,7 @@ header {
     height: 10rem;
     z-index: 10;
     text-align: center;
+    box-shadow: 0 2px 4px rgba(0 0 0/90%);
 }
 
 .info {
@@ -193,6 +194,7 @@ header {
 #moreDetail {
     margin: 0;
     text-decoration: underline 4px rgb(255, 255, 255);
+    font-size: 40px;
 }
 
 #minecraftDetail {
@@ -236,14 +238,38 @@ header {
 
 #community {
     width: 1420px;
-    height: 1000px;
+    height: 1200px;
     padding: 40px;
-
+    background-color: aqua;
+    display: block;
 }
 
+#communityTitle {
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700px;
+    text-decoration: underline 4px rgb(255, 255, 255);
+}
 
+.discordImg {
+    width: 1420px;
+    height: auto;
+    position: relative;
+    float: right;
+}
 
+.imgContainer {
+    width: fit-content;
+    height: fit-content;
+}
 
+#communityText {
+    margin-top: 20px;
+}
+
+#aboutCommunity {
+    font-size: 24px;
+}
 
 
 
